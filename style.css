@@ -1,0 +1,22 @@
+ body {
+  font-family: Arial, sans-serif;
+}
+
+.product-card {
+  transition: transform 0.3s ease-in-out;
+  background: #fff;
+}
+
+.product-card:hover {
+  transform: translateY(-5px);
+}
+
+.btn-buy {
+  background: #ff9900; /* Amazon orange */
+  font-weight: bold;
+  border: none;
+}
+
+.btn-buy:hover {
+  background: #e68a00;
+}
